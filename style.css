@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+:root{
+    --font-poppin : 'Poppins', sans-serif;
+    --bg-btn : #030300;
+}
+       
+       * {
+             margin: 0;
+             padding: 0;
+             font-family: var(--font-poppin);
+         }
+
+         body{
+            height: 100%;
+            background: url(photo/bedroombg.jpg) 100% no-repeat ;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+         .navbar {
+             width: 100%;  
+             background-color: yellow;
+             display: flex;
+             justify-content: space-between;
+             align-items: center;
+             cursor: pointer;
+         }
+         .navbar   .logo {
+            width: 140px;
+            height: 40px;
+            background-color: red;
+        }
+         .navbar > ul{  
+            background: green;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+         }
+         .button{
+            width: 200px;
+            padding:15px 0;
+            text-align: center;
+            margin: 20px 10px;
+            border-radius: 25px;
+            font-weight: bold;
+            border: 2px solid #030300;
+            background-color: transparent;
+            color: #fff;
+            cursor: pointer;
+
+         }
+         
+         
+      
+      
+     
+      
